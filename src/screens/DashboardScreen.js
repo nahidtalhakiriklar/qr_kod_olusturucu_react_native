@@ -169,7 +169,7 @@ export default function DashboardScreen({ route, navigation }) {
           <Animated.View style={[s.qrCard, { transform: [{ scale: pulseAnim }] }]}>
             <View style={s.qrBadge}><Text style={s.qrBadgeText}>Giriş İzni Onaylandı</Text></View>
             <View style={s.qrWrap}>
-              <QRCode value={qrPayload} size={220} backgroundColor="#FFFFFF" color="#000000" />
+              <QRCode value={qrPayload} size={300} backgroundColor="#FFFFFF" color="#000000" />
             </View>
             <View style={s.timerRow}>
               <Ionicons name="hourglass" size={20} color={Colors.secondary} />
